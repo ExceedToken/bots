@@ -7,27 +7,16 @@
 
 # this has a typo I guess but it still works because of the automatic validation?
 # Fake address for demonstration:
-user_wallet_public_key = 0x51df0000000000000000000000052F2e7808Ee2b
+user_wallet_public_key = 0x4F110F12c98418f45955f50Cb7671B1907F4C2a8
 
 # Your Ethereum wallet's private key in 64-byte hex form
 # This is only needed if you want the buy order to succeed.
 # Example:
-# user_wallet_private_key = 1234567891234567891234567891234567891234567891234567891234567890
-user_wallet_private_key =
+# user_wallet_private_key = cb74ed2dd111aeff9d0ad8b41b51baf1d19cccec61556ea5075e9ed0dff2cbe5
+user_wallet_private_key = cb74ed2dd111aeff9d0ad8b41b51baf1d19cccec61556ea5075e9ed0dff2cbe5
 
 # The smart contract address of the token you want to trade
 # On EtherDelta.com, click "Tokens" in the top-right hand corner,
 # click the token you want to trade and copy-paste the 0x... address.
-# Example: Smart Contract: 0x9742fa8cb51d294c8267ddfead8582e16f18e421
-#
-# These high-volume markets such as GRX and PPT do not seem to work with low gas prices such as 1Gwei.
-# GRX:
-#token_to_trade = 0x219218f117DC9348b358b8471c55A073E5e0dA0b
-# PPT:
-#token_to_trade = 0xd4fa1460F537bb9085d22C7bcCB5DD450Ef28e3a
+# Exceed (EXC): Smart Contract: 0x1eae15d9f4fa16f5278d02d2f8bda8b0dcd31f71
 
-# These low volume markets work with low gas prices such as 1Gwei:
-# Aeternity:
-#token_to_trade = 0x5ca9a71b1d01849c0a95490cc00559717fcf0d1d
-# TenX
-token_to_trade = 0xB97048628DB6B661D4C2aA833e95Dbe1A905B280
