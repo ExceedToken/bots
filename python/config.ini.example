@@ -12,8 +12,8 @@ user_wallet_public_key = 0x4F110F12c98418f45955f50Cb7671B1907F4C2a8
 # Your Ethereum wallet's private key in 64-byte hex form
 # This is only needed if you want the buy order to succeed.
 # Example:
-# user_wallet_private_key = cb74ed2dd111aeff9d0ad8b41b51baf1d19cccec61556ea5075e9ed0dff2cbe5
-user_wallet_private_key = cb74ed2dd111aeff9d0ad8b41b51baf1d19cccec61556ea5075e9ed0dff2cbe5
+# user_wallet_private_key = 000000000000f9d0ad8b41b51baf1d19cccec61556ea5075e9ed0dff2cbe5
+user_wallet_private_key = 000000000000f9d0ad8b41b51baf1d19cccec61556ea5075e9ed0dff2cbe5
 
 # The smart contract address of the token you want to trade
 # On EtherDelta.com, click "Tokens" in the top-right hand corner,
